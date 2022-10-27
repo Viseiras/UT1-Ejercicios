@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<coleccionJuegos>
+    <coleccion>
+        <anyo>2010</anyo>
+        <estudio>Mojang</estudio>
+        <nombre>Minecraft</nombre>
+    </coleccion>
+    <coleccion>
+        <anyo>2006</anyo>
+        <estudio>Blizzard</estudio>
+        <nombre>WoW</nombre>
+    </coleccion>
+</coleccionJuegos>
