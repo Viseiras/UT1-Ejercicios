@@ -115,33 +115,14 @@ class Bichos {
         try(DataInputStream dis= new DataInputStream(new FileInputStream("duplicados.dat")))
         {
             System.out.println("\t--Estos son los duplicados--\t");
-            /*for(int codb=1;codb!=cod ;codb++) //TODO Arreglar duplicados
+            while(true)
             {
-                if(codb!=cod)
-                {
-                    for(int codf=codb;cod!=codf;codf++)
-                    {
-                        dis.readInt();
-                        dis.readUTF();
-                        dis.readInt();
-                        dis.readUTF();
-                        b.Muestra();
-                    }
-                }
-                else
-                    codb=cod+1;
+                dis.readInt();
+                dis.readUTF();
+                dis.readInt();
+                dis.readUTF();
+                b.Muestra();
             }
-
-            for (int coddupli=cod;coddupli != -1;coddupli++) {
-                cod = dis.readInt();
-                nombre = dis.readUTF();
-                patas = dis.readInt();
-                descubridor = dis.readUTF();
-                if (b.getPatas() != 0)
-                {
-                    b.Muestra();
-                }
-            }*/
         }
         catch(EOFException e)
         {
